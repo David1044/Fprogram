@@ -1,0 +1,18 @@
+while True:
+    print('Hi, I am Jarvis, Who are you?')
+    name = raw_input()
+    if name != 'IronMAn':
+        continue                     
+    print('Hello, Sr. What is the password? (It is a food.)')
+    password = raw_input()               
+    if password == 'Hamburguer':
+        break
+print('ACCES GRANTED.')
+print('What can I do for you Sr.Stark ?')
+
+
+
+
+
+
+
