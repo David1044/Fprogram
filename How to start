@@ -1,0 +1,3 @@
+vi tmp.py
+
+input = raw_input
