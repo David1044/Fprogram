@@ -1,0 +1,15 @@
+# Pedalboard List
+
+print('Enter the name of the pedal 1:')
+pedalName1 = raw_input()
+print('Enter the name of the pedal 2:')
+pedalName2 = raw_input()
+print('Enter the name of the pedal 3:')
+pedalName3 = raw_input()
+print('Enter the name of the pedal 4:')
+pedalName4 = raw_input()
+print('Enter the name of the pedal 5:')
+pedalName5 = raw_input()
+print('Enter the name of the pedal 6:')
+pedalName6 = raw_input()
+print(pedalName1 + '-' + pedalName2 + '-' + pedalName3 + '-' + pedalName4 + '-' + pedalName5 + '-'+ pedalName6)
