@@ -1,0 +1,40 @@
+import time
+import math
+print(" ")
+print("Este programa calcula la cantidad de demanda quimica de oxigeno")
+time.sleep(5)
+print(" ")
+print("En un momento te presentamos la formula con la que estaremos trabajando")
+print(" ")
+
+time.sleep(2.5)
+
+print("La formula es....")
+time.sleep(3.5)
+print("DQO= PM1 02/ PM2 CH3COOH")
+print(" ")
+time.sleep(4)
+
+print("Es momento de introducir  los valores...........")
+time.sleep(3.5)
+print(" ")
+print("Introduce el primer valor")
+print("PM1 = ")
+number1 = (int(raw_input()))
+print(" ")
+print("Introduce el segundo valor")
+print("PM2 = ")
+number2 = (int(raw_input()))
+D =((number1)*(18))
+E =((number2)*(60))
+time.sleep(2)
+
+A = float(D)/E
+print(" ")
+print("Espere un momento estamos haciendo los calculos")
+print(" ")
+time.sleep(3.2)
+print("Tenga paciencia")
+time.slep(1)
+print("La demanda quimica de oxigeno es =")
+print(A)
