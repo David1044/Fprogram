@@ -1,0 +1,14 @@
+while True:
+    print('Hi I am Jarvis, This is a Program just for a special person, Who are u?')
+    name = raw_input()
+    if name != 'Coralito':
+        continue
+    print('Hi Are, What is the password? (It is the first nickname that David used to name u.)')
+    password = raw_input()
+    if password == 'elfo':
+        break
+print('ACCES GRANTED.')
+print('David left a message for you')
+print('You are my favorite person')
+
+ 
